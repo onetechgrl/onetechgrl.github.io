@@ -3,9 +3,18 @@ body {
   padding-top: 50px;
 }
 
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', courier, serif;
+}
+
 ul.nav {
-	font-family: 'Arvo', 'Courier', 'serif';
 	font-size: 13px;
+}
+
+footer {
+	background-color: #f74c3c;
+	padding-top: 150px;
+	padding-bottom: 30px;
 }
 
 #get-involved {
@@ -14,14 +23,12 @@ ul.nav {
 
 .jumbotron {
 	text-align: center;
-	background-image: url("../images/hero_image.jpg");
+	background-image: url('../images/hero_image.jpg');
 	color: white;
-
 }
 
 .jumbotron h1 {
-	font-family: 'Arvo', 'Courier', 'serif';
-	margin-top: 0px
+	margin-top: 0px;
 	margin-bottom: 50px;
 }
 
@@ -35,17 +42,10 @@ ul.nav {
 	font-size: 36px;
 }
 
-footer {
-	background-color: #f74c3c;
-	padding-top: 150px;
-	padding-bottom: 30px;
-}
-
 .homepage {
 	text-align: center;
-	padding-top: 30px;
 	padding-bottom: 30px;
-
+	padding-top: 30px;
 }
 
 .homepage h2, .homepage h3 {
@@ -53,12 +53,13 @@ footer {
 	font-family: 'Arvo', courier, serif;
 	text-transform: uppercase;
 }
+
 .homepage h2 {
-	font-size: 26px;
+	font-size: 30px;
 }
 
 .homepage h3 {
-	font-size: 30px;
+	font-size: 26px;
 }
 
 .homepage p {
@@ -68,20 +69,18 @@ footer {
 
 .homepage a {
 	color: #e74c3c;
-
-}
-
-.homepage hr {
-	border-color: #e74c3c;
-	width: 160px;
-	margin-top: 15px;
-	margin 15px auto;
 }
 
 .homepage a:hover {
 	color: #e74c3c;
 	text-decoration: none;
 	opacity: .8;
+}
+
+.homepage hr {
+	border-top: 1px solid #e74c3d;
+	width: 160px;
+	margin-top: 15px;
 }
 
 /* Responsive Styling */
@@ -136,20 +135,4 @@ footer {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
